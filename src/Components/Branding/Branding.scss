@@ -1,0 +1,87 @@
+.branding__wrapper{
+   padding-top: 100px; 
+   display: flex;
+   align-items: center;
+ gap: 200px;
+ 
+ 
+ 
+ 
+   
+   p{
+       font-size: 25px;
+       padding: 15px;
+   color: #272D38  ;
+   
+   
+   
+   @media (max-width: 700px) {
+     font-size: 20px;
+ 
+   }
+   }
+ 
+ 
+ 
+ 
+ 
+   @media (max-width: 900px) {
+     flex-wrap: wrap;
+     text-align: center;
+     justify-content: center;
+     flex-direction: column-reverse;
+     gap: 30px;
+   }
+ }
+ 
+ .branding__box{
+ display: flex;
+ flex-direction: column;
+ 
+ 
+ 
+ h1{
+   font-size: 50px;
+   padding: 15px;
+   color: #272D38;
+ 
+ 
+ 
+   @media (max-width: 900px) {
+     font-size: 40px;
+   }
+ }
+ 
+ 
+ 
+   button{
+     padding: 15px;
+     padding-top: 30px;
+     border: none;
+  background-color: #fff;  
+ 
+ 
+ @media (max-width: 900px) {
+   padding-left: 100px;
+ rotate: 90deg;
+ height: 100px;
+ }
+   }
+ 
+ }
+ 
+ .branding__img{
+   img{
+     width: 150%;
+ 
+ 
+ 
+ 
+ 
+ 
+     @media (max-width: 900px) {
+       width: 100%;
+     }
+   }
+ }
+ 

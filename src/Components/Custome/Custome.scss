@@ -1,0 +1,77 @@
+.custome__wrapper{
+   display: flex;
+ align-items: center;
+ gap: 70px;
+ 
+ 
+ 
+ 
+ 
+ h1{
+   font-size: 50px;
+   padding: 15px;
+   color: #272D38;
+ 
+ 
+ 
+   @media (max-width: 730px) {
+     font-size: 40px;
+   }
+ }
+ 
+ p{
+     font-size: 18px;
+     padding: 15px;
+ color: #272D38  ;
+ 
+ 
+ 
+ @media (max-width: 700px) {
+   font-size: 20px;
+   
+ }
+ }
+ 
+ @media (max-width: 900px) {
+   flex-wrap: wrap;
+   text-align: center;
+   justify-content: center;
+ }
+ 
+  
+ }
+ 
+ .custome__box{
+ 
+ 
+ 
+   button{
+     padding: 15px;
+     padding-top: 30px;
+     border: none;
+  background-color: #fff;  
+ 
+ 
+ @media (max-width: 900px) {
+   padding-left: 100px;
+ rotate: 90deg;
+ height: 100px;
+ }
+   }
+ }
+ 
+ 
+ .custome__img{
+   img{
+     width: 100%;
+ 
+ 
+ 
+ 
+ 
+ 
+     @media (max-width: 900px) {
+       width: 100%;
+     }
+   }
+ }

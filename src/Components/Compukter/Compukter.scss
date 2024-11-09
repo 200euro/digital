@@ -1,0 +1,63 @@
+.compukter__wrap{
+   margin-top: 100px;
+gap: 60px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+   align-items: center;
+   background-color: #F6F6F6;
+   
+
+   img{
+      width: 100%;
+
+
+      @media (max-width: 800px) {
+        display: none;
+      }
+   }
+   
+   
+   h1{
+      font-size: 40px;
+   }
+   
+   p{
+      font-size: 20px;
+   }
+
+
+
+
+
+
+   @media (max-width: 900px) {
+text-align: center;
+gap: 0;
+padding: 30px;
+   }
+   
+
+   }
+
+   .compukter__box{
+         display: flex;
+         flex-direction: column;
+         gap: 30px;
+
+
+
+       
+   }
+
+   .btn2{
+      width: 150px;
+      background-color: #8EADD5;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+
+      @media (max-width: 900px) {
+      }
+   }
