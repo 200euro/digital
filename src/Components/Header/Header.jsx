@@ -1,9 +1,17 @@
 import React, { useState } from 'react'
 import './Header.scss'
+import { Link } from 'react-router-dom'
+
 
 
 const Header = () => {
 const [isActive, setActive] = useState (false)
+
+
+
+
+
+
 
 const toggleBurger = () => {
   setActive(!isActive)
@@ -20,6 +28,10 @@ const closeBurger = () => {
   return (
 <>
 
+ 
+
+
+
 
 <header className="header">
 <div className="cotainer">
@@ -31,14 +43,15 @@ const closeBurger = () => {
 
 
 
-<div className={`header__menu ${isActive ? 'active' : '' }`}>
-<a href="">HOME</a>
-      <a href="">ABOUT</a>
-      <a href="">Testimonials</a>
-      <a href="">contact</a>
+<nav className={`header__menu ${isActive ? 'active' : '' }`}>
+      <Link to={'/Home'}>Home</Link>
+      <Link to={'/about'}>About</Link>
+      <Link to={'/Contacts'}>Contacts</Link>
+      <Link to={'/Testimional'}>Testimional</Link>
+
         <button className='btn__logo'><img src="/media.png" alt="" /></button>
       
-</div>
+</nav>
 
 
 <div  onClick={toggleBurger}  className={`burger ${isActive ? 'active' : ''}`}>

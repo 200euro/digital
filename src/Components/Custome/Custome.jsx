@@ -1,7 +1,7 @@
 import React from 'react'
 import './Custome.scss'
 
-const Custome = () => {
+const Custome = ({name ='', image=''}) => {
   return (
 <>
 
@@ -9,7 +9,7 @@ const Custome = () => {
   <div className="container">
     <div className="custome__wrapper">
     <div className="custome__box">
-<div><h1>Custome & Plugin1 Development</h1></div>  
+<div><h1>{name}</h1></div>  
 <div> <p>Commonly used in the graphic, print & publishing  industris for previewing visual layout and mockups
       </p></div>
       <div>
@@ -18,7 +18,7 @@ const Custome = () => {
     </div>
 
 <div className="custome__img">
-  <img src="bisnes.png" alt="" />  
+  <img src={image} alt="" />  
 </div>
 
     </div>
